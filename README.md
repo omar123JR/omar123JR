@@ -117,19 +117,12 @@
 
 ---
 
-### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) Real-Time Activity & Telemetry (HUD)
+### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) SOC Operations & Telemetry (HUD)
 
 <div align="center">
 
-  <!-- الرسم البياني المنحني الأنيق بستايل نوار وسايبر مع خط كحلي بارد -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=omar123JR&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=FFFFFF&area=true&hide_border=true" width="100%" alt="Activity Graph" />
-
-  <br><br>
-
-  <!-- كروت الإحصائيات بثيم موحد مع الدارك مود -->
-  <img src="https://streak-stats.demolab.com/?user=omar123JR&theme=dark&background=0D1117&border=30363D&stroke=C9D1D9&ring=58A6FF&fire=58A6FF&hide_border=true" width="48%" alt="GitHub Streak" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api?username=omar123JR&show_icons=true&theme=dark&bg_color=0D1117&text_color=C9D1D9&icon_color=58A6FF&title_color=FFFFFF&hide_border=true" width="48%" alt="GitHub Stats" />
+  <!-- لوحة عمليات ومؤشرات الـ SOC التفاعلية المخصصة -->
+  <img src="https://raw.githubusercontent.com/omar123JR/omar123JR/main/assets/telemetry.svg" width="100%" alt="SOC Telemetry HUD" />
 
 </div>
 
