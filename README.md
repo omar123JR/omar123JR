@@ -1,23 +1,25 @@
 <div align="center">
 
-  <!-- 1. هيدر تيرمينال بستايل نوار وسايبربانك -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=180&section=header&text=%5B%20SYSTEM%20NODE%3A%20OMAR%20%5D&fontSize=32&fontColor=C9D1D9&fontAlign=50&fontAlignY=45&desc=%3E%20DEFENSIVE%20OPERATIONS%20%7C%20SOC%20%26%20SECURITY%20AUTOMATION&descSize=14&descAlign=50&descAlignY=70&stroke=30363D&strokeWidth=1" width="100%" alt="Terminal Header" />
+  <!-- 1. هيدر تيرمينال فيكتور مخصص (Vector HUD Banner) -->
+  <img src="./assets/banner.svg" width="100%" alt="System Node Omar" />
 
-  <br>
+  <br><br>
 
   <!-- 2. نص متحرك بستايل سطر أوامر التيرمينال (JetBrains Mono) -->
   <a href="https://github.com/omar123JR">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=+%3E+Initializing+security_matrix.service...;+%3E+SIEM+%7C+Wazuh+Rule+Tuning+%26+Log+Analysis;+%3E+SOAR+Pipeline+%7C+Incident+Response+Automation;+%3E+Kernel-Level+Monitoring+%26+Linux+Hardening" alt="Terminal Typing" />
   </a>
 
+  <br>
+
   <!-- 3. شارات الحالة الأمنية وروابط الحسابات -->
   <p align="center">
-    <img src="https://img.shields.io/badge/SECURITY_STATUS-ACTIVE_HUNTING-000000?style=for-the-badge&logo=shield&logoColor=58A6FF" />
+    <img src="https://img.shields.io/badge/SECURITY_STATUS-ACTIVE_HUNTING-000000?style=for-the-badge&logo=shield&logoColor=58A6FF" alt="Status" />
     <a href="https://github.com/omar123JR">
-      <img src="https://img.shields.io/badge/GitHub-omar123JR-000000?style=for-the-badge&logo=github&logoColor=FFFFFF" />
+      <img src="https://img.shields.io/badge/GitHub-omar123JR-000000?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
     </a>
     <a href="https://www.linkedin.com" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=58A6FF" />
+      <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=58A6FF" alt="LinkedIn" />
     </a>
   </p>
 
@@ -45,3 +47,94 @@
   02. Automation    : Orchestrating Wazuh + SOAR playbook triggers
   03. Engineering   : Designing scalable Dockerized defense stacks
   04. Hardening     : Linux kernel auditing, privilege restriction
+```
+
+</td>
+<td width="35%" align="center" valign="middle">
+
+<!-- رادار تفاعلي نوار وسايبربانك محلي في المستودع -->
+<img src="./assets/radar.svg" width="100%" alt="Tactical Radar" />
+
+</td>
+</tr>
+</table>
+
+---
+
+### ![](https://img.shields.io/badge/◈-58A6FF?style=flat-square&labelColor=0D1117) Tactical Operations (Featured Deployments)
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🛡️ Autonomous SOAR & Wazuh Pipeline
+**Enterprise Incident Detection & Containment**
+
+نظام دفاعي متكامل مبني حول **Wazuh Manager** و **Shuffle SOAR** لأتمتة التجاوب مع الإنذارات الأمنية وإثراء البيانات (Enrichment).
+
+- **Telemetry & Rules:** مخصص لرصد هجمات الـ Brute Force وعزل الـ IPs آلياً.
+- **Automation:** تكامل عبر Webhooks و REST APIs مع VirusTotal و TheHive.
+- **Stack:** `Wazuh` `Docker` `Shuffle SOAR` `Python`
+
+```
+[ALERT] Suspicious SSH Auth Spike -> [SOAR] IP Banned in 1.4s
+```
+
+</td>
+<td width="50%" valign="top">
+
+#### 🔍 Endpoint Threat Detection & Syslog Suite
+**Linux Kernel Telemetry & Investigation**
+
+مجموعة سكربتات وقواعد فحص مبنية بلغات **Bash** و **Python** لفلترة سجلات الـ Auditd وحساب مؤشرات الخطر (IoCs).
+
+- **Capabilities:** فحص تشغيل الأوامر المشبوهة، كشف الـ Reverse Shells، واستخراج الـ Artifacts.
+- **Stack:** `Bash` `Python` `Auditd` `Syslog` `Linux CLI`
+
+```
+[IOC_SCAN] 0x4A2F: Unsigned binary spawned by cron -> Flagged
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+### ![](https://img.shields.io/badge/◈-58A6FF?style=flat-square&labelColor=0D1117) Security Arsenal & Stack
+
+<div align="center">
+
+#### Systems, Containers & Telemetry
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,docker,bash" alt="OS and Infrastructure" />
+
+<br>
+
+#### Scripting, Security Tools & Automation
+<img src="https://skillicons.dev/icons?i=python,git,github,postman,regex" alt="Development and Security" />
+
+</div>
+
+---
+
+### ![](https://img.shields.io/badge/◈-58A6FF?style=flat-square&labelColor=0D1117) Real-Time Activity & Telemetry (HUD)
+
+<div align="center">
+
+  <!-- الرسم البياني المنحني الأنيق بستايل نوار وسايبر مع خط كحلي بارد -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=omar123JR&bg_color=0D1117&color=C9D1D9&line=58A6FF&point=FFFFFF&area=true&hide_border=true" width="100%" alt="Activity Graph" />
+
+  <br><br>
+
+  <!-- كروت الإحصائيات بثيم موحد مع الدارك مود -->
+  <img src="https://streak-stats.demolab.com/?user=omar123JR&theme=dark&background=0D1117&border=30363D&stroke=C9D1D9&ring=58A6FF&fire=58A6FF&hide_border=true" width="48%" alt="GitHub Streak" />
+  &nbsp;
+  <img src="https://github-readme-stats.vercel.app/api?username=omar123JR&show_icons=true&theme=dark&bg_color=0D1117&text_color=C9D1D9&icon_color=58A6FF&title_color=FFFFFF&hide_border=true" width="48%" alt="GitHub Stats" />
+
+</div>
+
+---
+
+<div align="center">
+  <sub><code>[ TERMINAL SESSION LOCKED // END OF TRANSMISSION ]</code></sub>
+</div>

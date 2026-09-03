@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 220" width="100%" height="220">
+  <defs>
+    <radialGradient id="radar-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.15" />
+      <stop offset="80%" stop-color="#0D1117" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background container -->
+  <rect width="260" height="220" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1" />
+
+  <!-- Radar circles -->
+  <circle cx="130" cy="100" r="75" fill="url(#radar-glow)" stroke="#21262D" stroke-width="1" />
+  <circle cx="130" cy="100" r="50" fill="none" stroke="#21262D" stroke-width="1" />
+  <circle cx="130" cy="100" r="25" fill="none" stroke="#30363D" stroke-width="1" stroke-dasharray="3,3" />
+  <circle cx="130" cy="100" r="3" fill="#58A6FF" />
+
+  <!-- Crosshairs -->
+  <line x1="45" y1="100" x2="215" y2="100" stroke="#21262D" stroke-width="1" />
+  <line x1="130" y1="15" x2="130" y2="185" stroke="#21262D" stroke-width="1" />
+
+  <!-- Rotating Sweep Line -->
+  <line x1="130" y1="100" x2="183" y2="47" stroke="#58A6FF" stroke-width="1.8" opacity="0.8">
+    <animateTransform attributeName="transform" type="rotate" from="0 130 100" to="360 130 100" dur="4s" repeatCount="indefinite" />
+  </line>
+
+  <!-- Detected Threat Blips -->
+  <circle cx="160" cy="70" r="3.5" fill="#3FB950">
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <text x="168" y="73" font-family="monospace" font-size="8" fill="#3FB950">AGENT-01</text>
+
+  <circle cx="95" cy="125" r="3.5" fill="#58A6FF">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite" />
+  </circle>
+  <text x="60" y="140" font-family="monospace" font-size="8" fill="#58A6FF">SIEM_FLOW: OK</text>
+
+  <!-- Telemetry readout panel -->
+  <rect x="15" y="185" width="230" height="25" rx="4" fill="#161B22" stroke="#30363D" stroke-width="0.8" />
+  <text x="25" y="201" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8B949E">TELEMETRY: <tspan fill="#3FB950">SYNCED</tspan> | LOSS: <tspan fill="#58A6FF">0.00%</tspan></text>
+</svg>
