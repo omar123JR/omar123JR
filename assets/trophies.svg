@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 140" width="100%" height="140">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="trophy-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161B22" />
+      <stop offset="100%" stop-color="#0D1117" />
+    </linearGradient>
+
+    <!-- Gold Accent -->
+    <linearGradient id="gold-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2CC60" />
+      <stop offset="100%" stop-color="#D29922" />
+    </linearGradient>
+
+    <!-- Cyan Accent -->
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#58A6FF" />
+    </linearGradient>
+
+    <!-- Emerald Accent -->
+    <linearGradient id="green-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3FB950" />
+      <stop offset="100%" stop-color="#238636" />
+    </linearGradient>
+
+    <!-- Purple/Cyber Accent -->
+    <linearGradient id="purple-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#BC8CFF" />
+      <stop offset="100%" stop-color="#8957E5" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container Base -->
+  <rect width="920" height="140" rx="8" fill="#0D1117" stroke="#30363D" stroke-width="1.2" />
+
+  <!-- Top Bar -->
+  <rect x="0" y="0" width="920" height="28" rx="8" fill="#161B22" />
+  <rect x="0" y="20" width="920" height="8" fill="#161B22" />
+  <line x1="0" y1="28" x2="920" y2="28" stroke="#30363D" stroke-width="1" />
+
+  <circle cx="16" cy="14" r="3.5" fill="#F2CC60" />
+  <text x="28" y="18" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#E6EDF3" letter-spacing="1">
+    OPERATIONAL HONORS &amp; ACHIEVEMENTS // GITHUB TROPHIES
+  </text>
+  <text x="800" y="18" font-family="'JetBrains Mono', monospace" font-size="9" fill="#8B949E">
+    TIER: <tspan fill="#F2CC60">CLASSIFIED // ELITE</tspan>
+  </text>
+
+  <!-- ================= TROPHY 1: REPO ARCHITECT ================= -->
+  <g transform="translate(18, 38)">
+    <rect width="168" height="90" rx="6" fill="url(#trophy-bg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="84" cy="26" r="16" fill="#161B22" stroke="#F2CC60" stroke-width="1.5" />
+    <text x="84" y="32" text-anchor="middle" font-size="16">🏆</text>
+    <text x="84" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#F2CC60">REPO ARCHITECT</text>
+    <text x="84" y="72" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#8B949E">6+ Active Repos</text>
+    <rect x="52" y="78" width="64" height="6" rx="3" fill="#21262D" />
+    <rect x="52" y="78" width="58" height="6" rx="3" fill="#F2CC60" />
+  </g>
+
+  <!-- ================= TROPHY 2: PULL SHARK ================= -->
+  <g transform="translate(196, 38)">
+    <rect width="168" height="90" rx="6" fill="url(#trophy-bg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="84" cy="26" r="16" fill="#161B22" stroke="#58A6FF" stroke-width="1.5" />
+    <text x="84" y="32" text-anchor="middle" font-size="16">🦈</text>
+    <text x="84" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#58A6FF">PULL SHARK</text>
+    <text x="84" y="72" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#8B949E">Branch Merges</text>
+    <rect x="52" y="78" width="64" height="6" rx="3" fill="#21262D" />
+    <rect x="52" y="78" width="64" height="6" rx="3" fill="#58A6FF" />
+  </g>
+
+  <!-- ================= TROPHY 3: SOC SENTINEL ================= -->
+  <g transform="translate(376, 38)">
+    <rect width="168" height="90" rx="6" fill="url(#trophy-bg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="84" cy="26" r="16" fill="#161B22" stroke="#3FB950" stroke-width="1.5" />
+    <text x="84" y="32" text-anchor="middle" font-size="16">🛡️</text>
+    <text x="84" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#3FB950">SOC SENTINEL</text>
+    <text x="84" y="72" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#8B949E">Wazuh &amp; SOAR Pipeline</text>
+    <rect x="52" y="78" width="64" height="6" rx="3" fill="#21262D" />
+    <rect x="52" y="78" width="60" height="6" rx="3" fill="#3FB950" />
+  </g>
+
+  <!-- ================= TROPHY 4: QUICKDRAW ================= -->
+  <g transform="translate(556, 38)">
+    <rect width="168" height="90" rx="6" fill="url(#trophy-bg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="84" cy="26" r="16" fill="#161B22" stroke="#BC8CFF" stroke-width="1.5" />
+    <text x="84" y="32" text-anchor="middle" font-size="16">🤠</text>
+    <text x="84" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#BC8CFF">QUICKDRAW</text>
+    <text x="84" y="72" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#8B949E">Rapid Containment</text>
+    <rect x="52" y="78" width="64" height="6" rx="3" fill="#21262D" />
+    <rect x="52" y="78" width="64" height="6" rx="3" fill="#BC8CFF" />
+  </g>
+
+  <!-- ================= TROPHY 5: HARDENING EXPERT ================= -->
+  <g transform="translate(734, 38)">
+    <rect width="168" height="90" rx="6" fill="url(#trophy-bg)" stroke="#21262D" stroke-width="1" />
+    <circle cx="84" cy="26" r="16" fill="#161B22" stroke="#F0883E" stroke-width="1.5" />
+    <text x="84" y="32" text-anchor="middle" font-size="16">⚡</text>
+    <text x="84" y="58" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#F0883E">SYSTEM DEFENDER</text>
+    <text x="84" y="72" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#8B949E">Linux &amp; Docker Ops</text>
+    <rect x="52" y="78" width="64" height="6" rx="3" fill="#21262D" />
+    <rect x="52" y="78" width="56" height="6" rx="3" fill="#F0883E" />
+  </g>
+</svg>

@@ -128,6 +128,17 @@
 
 ---
 
+### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) Operational Honors & Trophies
+
+<div align="center">
+
+  <!-- كؤوس وجوائز العمليات الرقمية المخصصة -->
+  <img src="https://raw.githubusercontent.com/omar123JR/omar123JR/main/assets/trophies.svg" width="100%" alt="GitHub Trophies" />
+
+</div>
+
+---
+
 <div align="center">
   <sub><code>[ TERMINAL SESSION LOCKED // END OF TRANSMISSION ]</code></sub>
 </div>
