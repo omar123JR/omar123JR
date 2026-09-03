@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- 1. هيدر تيرمينال فيكتور مخصص (Vector HUD Banner) -->
-  <img src="./assets/banner.svg" width="100%" alt="System Node Omar" />
+  <img src="https://raw.githubusercontent.com/omar123JR/omar123JR/main/assets/banner.svg" width="100%" alt="System Node Omar" />
 
   <br><br>
 
@@ -27,7 +27,7 @@
 
 ---
 
-### ![](https://img.shields.io/badge/◈-58A6FF?style=flat-square&labelColor=0D1117) $ cat /etc/identity.conf
+### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) $ cat /etc/identity.conf
 
 <table>
 <tr>
@@ -52,8 +52,8 @@
 </td>
 <td width="35%" align="center" valign="middle">
 
-<!-- رادار تفاعلي نوار وسايبربانك محلي في المستودع -->
-<img src="./assets/radar.svg" width="100%" alt="Tactical Radar" />
+<!-- رادار تفاعلي نوار وسايبربانك -->
+<img src="https://raw.githubusercontent.com/omar123JR/omar123JR/main/assets/radar.svg" width="100%" alt="Tactical Radar" />
 
 </td>
 </tr>
@@ -61,7 +61,7 @@
 
 ---
 
-### ![](https://img.shields.io/badge/◈-58A6FF?style=flat-square&labelColor=0D1117) Tactical Operations (Featured Deployments)
+### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) Tactical Operations (Featured Deployments)
 
 <table>
 <tr>
@@ -101,7 +101,7 @@
 
 ---
 
-### ![](https://img.shields.io/badge/◈-58A6FF?style=flat-square&labelColor=0D1117) Security Arsenal & Stack
+### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) Security Arsenal & Stack
 
 <div align="center">
 
@@ -117,7 +117,7 @@
 
 ---
 
-### ![](https://img.shields.io/badge/◈-58A6FF?style=flat-square&labelColor=0D1117) Real-Time Activity & Telemetry (HUD)
+### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) Real-Time Activity & Telemetry (HUD)
 
 <div align="center">
 
