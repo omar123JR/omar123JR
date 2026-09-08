@@ -137,17 +137,31 @@
 
 </div>
 
----
+<h2 align="center">📈 Activity Graph</h2>
 
-### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) Commit Activity
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=omar123JR&bg_color=1F242C&color=E6EDF3&line=3B82F6&point=58A6FF&area=true&hide_border=true&radius=16" alt="Activity Graph"/>
+</p>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omar123JR/omar123JR/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omar123JR/omar123JR/output/github-contribution-grid-snake.svg">
-    <img alt="Pacman github contribution graph animation" src="https://raw.githubusercontent.com/omar123JR/omar123JR/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
+<h2 align="center">⌘ Commit Activity</h2>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/omar123JR/omar123JR/output/pacman-contribution-graph-dark.svg">
+
+  <source media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/omar123JR/omar123JR/output/pacman-contribution-graph.svg">
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/omar123JR/omar123JR/output/pacman-contribution-graph-dark.svg" alt="Pacman Contribution Graph">
+</p>
+</picture>
+
+<h2 align="center">⌘ Philosophy</h2>
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Developer Quote"/>
+</p>
 
 ---
 
