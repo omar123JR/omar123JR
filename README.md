@@ -139,6 +139,18 @@
 
 ---
 
+### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) Commit Activity
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/omar123JR/omar123JR/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/omar123JR/omar123JR/output/github-contribution-grid-snake.svg">
+    <img alt="Pacman github contribution graph animation" src="https://raw.githubusercontent.com/omar123JR/omar123JR/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+---
+
 <div align="center">
   <sub><code>[ TERMINAL SESSION LOCKED // END OF TRANSMISSION ]</code></sub>
 </div>
