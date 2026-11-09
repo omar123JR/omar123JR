@@ -1,77 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 180" width="100%" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Omar Salem Aljerbi — Cybersecurity Student</title>
+  <desc id="desc">A dark blue SOC-inspired banner with a network radar and blue-team focus areas.</desc>
   <defs>
-    <!-- Background Gradient -->
-    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#080B10" />
-      <stop offset="50%" stop-color="#0D1117" />
-      <stop offset="100%" stop-color="#161B22" />
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset=".58" stop-color="#0b1c2a"/>
+      <stop offset="1" stop-color="#101b32"/>
     </linearGradient>
-
-    <!-- Glowing Accent Gradient -->
-    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8" />
-      <stop offset="100%" stop-color="#58A6FF" />
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#35d0bd"/>
+      <stop offset="1" stop-color="#54a8ff"/>
     </linearGradient>
-
-    <!-- Scanline Pattern -->
-    <pattern id="scanlines" width="100" height="4" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0" x2="100" y2="0" stroke="#000000" stroke-width="1" opacity="0.15" />
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#35d0bd" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#35d0bd" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#7fa3ba" stroke-opacity=".09" stroke-width="1"/>
     </pattern>
-
-    <!-- Grid Pattern -->
-    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
-      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#21262D" stroke-width="0.5" opacity="0.4" />
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#83a6bc" fill-opacity=".18"/>
     </pattern>
+    <clipPath id="clip"><rect x="0" y="0" width="1200" height="320" rx="22"/></clipPath>
   </defs>
 
-  <!-- Base Card -->
-  <rect width="920" height="180" rx="10" fill="url(#bg-gradient)" stroke="#30363D" stroke-width="1.2" />
-  
-  <!-- Grid Overlay -->
-  <rect width="920" height="180" rx="10" fill="url(#grid)" />
-  
-  <!-- Scanlines -->
-  <rect width="920" height="180" rx="10" fill="url(#scanlines)" />
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <rect x="0" y="0" width="1200" height="320" fill="url(#dots)" opacity=".5"/>
+    <circle cx="1015" cy="154" r="245" fill="url(#glow)"/>
+    <path d="M0 286H1200" stroke="#35d0bd" stroke-opacity=".13"/>
+    <path d="M0 0H1200V7H0Z" fill="url(#accent)"/>
+    <path d="M42 42V278" stroke="#35d0bd" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="42" cy="42" r="4" fill="#35d0bd"/>
+    <circle cx="42" cy="278" r="4" fill="#35d0bd"/>
 
-  <!-- Top Bar Decor -->
-  <rect x="0" y="0" width="920" height="32" rx="10" fill="#161B22" fill-opacity="0.8" />
-  <rect x="0" y="24" width="920" height="8" fill="#161B22" fill-opacity="0.8" />
-  <line x1="0" y1="32" x2="920" y2="32" stroke="#30363D" stroke-width="1" />
+    <g font-family="Segoe UI, Arial, sans-serif">
+      <text x="72" y="58" fill="#72d8d0" font-size="13" font-weight="700" letter-spacing="3">FIELD NOTES  /  BLUE TEAM</text>
+      <text x="70" y="126" fill="#f0f6fc" font-size="43" font-weight="800" letter-spacing="1.2">OMAR SALEM ALJERBI</text>
+      <text x="73" y="164" fill="#b9c9d8" font-size="20" font-weight="600" letter-spacing="2.2">CYBERSECURITY STUDENT  ·  YEAR 4</text>
+      <rect x="72" y="187" width="440" height="2" rx="1" fill="url(#accent)" opacity=".8"/>
+      <text x="73" y="218" fill="#e6edf3" font-size="16" font-weight="600">SOC / SIEM  ·  INCIDENT RESPONSE  ·  OSINT</text>
+      <text x="73" y="246" fill="#9fb3c5" font-size="15">Developing skills in malware analysis and defensive security</text>
+      <g transform="translate(73 270)">
+        <rect width="108" height="27" rx="13.5" fill="#102d3c" stroke="#35d0bd" stroke-opacity=".5"/>
+        <text x="54" y="18" text-anchor="middle" fill="#91eee1" font-size="11" font-weight="700" letter-spacing="1">WAZUH LABS</text>
+        <rect x="118" width="132" height="27" rx="13.5" fill="#102d3c" stroke="#54a8ff" stroke-opacity=".5"/>
+        <text x="184" y="18" text-anchor="middle" fill="#abd3ff" font-size="11" font-weight="700" letter-spacing="1">SOAR PROJECTS</text>
+        <rect x="260" width="124" height="27" rx="13.5" fill="#102d3c" stroke="#35d0bd" stroke-opacity=".5"/>
+        <text x="322" y="18" text-anchor="middle" fill="#91eee1" font-size="11" font-weight="700" letter-spacing="1">OSINT</text>
+      </g>
+    </g>
 
-  <!-- Terminal Window Dots -->
-  <circle cx="22" cy="16" r="4.5" fill="#FF5F56" />
-  <circle cx="38" cy="16" r="4.5" fill="#FFBD2E" />
-  <circle cx="54" cy="16" r="4.5" fill="#27C93F" />
+    <g transform="translate(930 155)">
+      <circle r="132" fill="none" stroke="#54a8ff" stroke-opacity=".12" stroke-width="1"/>
+      <circle r="111" fill="none" stroke="#54a8ff" stroke-opacity=".2" stroke-width="1" stroke-dasharray="3 8"/>
+      <circle r="86" fill="none" stroke="#35d0bd" stroke-opacity=".3" stroke-width="1"/>
+      <circle r="58" fill="none" stroke="#54a8ff" stroke-opacity=".25" stroke-width="1"/>
+      <circle r="27" fill="none" stroke="#35d0bd" stroke-opacity=".35" stroke-width="1"/>
+      <path d="M-142 0H142M0-142V142M-101-101L101 101M-101 101L101-101" stroke="#89a9c1" stroke-opacity=".13" stroke-width="1"/>
+      <path d="M0 0L93-76" stroke="url(#accent)" stroke-width="2.2" stroke-linecap="round"/>
+      <path d="M0 0L-64 84" stroke="#54a8ff" stroke-opacity=".45" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="7" fill="#35d0bd"/>
+      <circle cx="93" cy="-76" r="5" fill="#54a8ff"/>
+      <circle cx="-64" cy="84" r="4" fill="#35d0bd"/>
+      <circle cx="66" cy="55" r="4" fill="#35d0bd"/>
+      <circle cx="-77" cy="-45" r="3.5" fill="#54a8ff"/>
+      <path d="M-77-45L-118-82M66 55L116 83M93-76L130-110" stroke="#7fa3ba" stroke-opacity=".55" stroke-dasharray="3 5"/>
+      <g font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="1.2">
+        <text x="-148" y="-91" fill="#8ecbff">SIEM</text>
+        <text x="119" y="-116" fill="#8ecbff">IR</text>
+        <text x="119" y="97" fill="#7be3d3">OSINT</text>
+        <text x="-148" y="111" fill="#7be3d3">SOC</text>
+      </g>
+    </g>
 
-  <!-- Window Title -->
-  <text x="75" y="20" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" fill="#8B949E" letter-spacing="1">soc-node-01://omar.sh [SECURE TRANSMISSION]</text>
-
-  <!-- Status Indicator (Pulsing Green) -->
-  <circle cx="875" cy="16" r="4" fill="#3FB950">
-    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
-  </circle>
-  <text x="830" y="20" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="10" fill="#3FB950" font-weight="600">ONLINE</text>
-
-  <!-- Tactical HUD Corner Markers -->
-  <!-- Top Left -->
-  <path d="M 12 44 L 12 56 M 12 44 L 24 44" stroke="#58A6FF" stroke-width="1.5" fill="none" opacity="0.6" />
-  <!-- Top Right -->
-  <path d="M 908 44 L 908 56 M 908 44 L 896 44" stroke="#58A6FF" stroke-width="1.5" fill="none" opacity="0.6" />
-  <!-- Bottom Left -->
-  <path d="M 12 168 L 12 156 M 12 168 L 24 168" stroke="#58A6FF" stroke-width="1.5" fill="none" opacity="0.6" />
-  <!-- Bottom Right -->
-  <path d="M 908 168 L 908 156 M 908 168 L 896 168" stroke="#58A6FF" stroke-width="1.5" fill="none" opacity="0.6" />
-
-  <!-- Main Identity Content -->
-  <text x="460" y="85" text-anchor="middle" font-family="'JetBrains Mono', 'Courier New', monospace" font-size="28" font-weight="800" fill="url(#accent-cyan)" letter-spacing="4">
-    [ SYSTEM NODE : OMAR ]
-  </text>
-
-  <text x="460" y="118" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" font-weight="600" fill="#E6EDF3" letter-spacing="2">
-    &gt; DEFENSIVE SECURITY &amp; SOC INCIDENT AUTOMATION &lt;
-  </text>
-
-  <text x="460" y="145" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11" fill="#8B949E" letter-spacing="1">
-    SIEM TELEMETRY // WAZUH RULES // SOAR PLAYBOOKS // DOCKER HARDENING
-  </text>
+    <g transform="translate(1085 38)" font-family="Consolas, monospace">
+      <rect width="83" height="25" rx="12.5" fill="#0d2b2a" stroke="#35d0bd" stroke-opacity=".65"/>
+      <circle cx="14" cy="12.5" r="4" fill="#35d0bd"/>
+      <text x="27" y="16.5" fill="#a4eee3" font-size="10" font-weight="700">LEARNING</text>
+    </g>
+    <text x="1128" y="294" text-anchor="end" fill="#8da4b7" font-family="Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="2">TRIPOLI  /  LIBYA</text>
+  </g>
 </svg>
