@@ -1,164 +1,118 @@
 <div align="center">
 
-  <!-- 1. هيدر تيرمينال فيكتور مخصص (Vector HUD Banner) -->
-  <img src="https://raw.githubusercontent.com/omar123JR/omar123JR/main/assets/banner.svg" width="100%" alt="System Node Omar" />
+<img src="assets/banner.svg" width="100%" alt="Omar Salem Aljerbi — Cybersecurity Student" />
 
-  <br><br>
-
-  <!-- 2. نص متحرك بستايل سطر أوامر التيرمينال (JetBrains Mono) -->
-  <a href="https://github.com/omar123JR">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=+%3E+Initializing+security_matrix.service...;+%3E+SIEM+%7C+Wazuh+Rule+Tuning+%26+Log+Analysis;+%3E+SOAR+Pipeline+%7C+Incident+Response+Automation;+%3E+Kernel-Level+Monitoring+%26+Linux+Hardening" alt="Terminal Typing" />
-  </a>
-
-  <br>
-
-  <!-- 3. شارات الحالة الأمنية وروابط الحسابات -->
-  <p align="center">
-    <img src="https://img.shields.io/badge/SECURITY_STATUS-ACTIVE_HUNTING-000000?style=for-the-badge&logo=shield&logoColor=58A6FF" alt="Status" />
-    <a href="https://github.com/omar123JR">
-      <img src="https://img.shields.io/badge/GitHub-omar123JR-000000?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
-    </a>
-    <a href="https://www.linkedin.com" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=58A6FF" alt="LinkedIn" />
-    </a>
-  </p>
-
-</div>
-
----
-
-### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) $ cat /etc/identity.conf
-
-<table>
-<tr>
-<td width="65%" valign="top">
-
-```bash
-# --------------------------------------------------------------------
-# HOST IDENTITY & TELEMETRY
-# --------------------------------------------------------------------
-[identity]
-  operator     = "Omar"
-  designation  = "Cybersecurity Analyst / SOC Automation Engineer"
-  status       = "Defending endpoints, automating incident containment"
-
-[core_objectives]
-  01. Threat Hunting: Deep packet & host log telemetry inspection
-  02. Automation    : Orchestrating Wazuh + SOAR playbook triggers
-  03. Engineering   : Designing scalable Dockerized defense stacks
-  04. Hardening     : Linux kernel auditing, privilege restriction
-```
-
-</td>
-<td width="35%" align="center" valign="middle">
-
-<!-- رادار تفاعلي نوار وسايبربانك -->
-<img src="https://raw.githubusercontent.com/omar123JR/omar123JR/main/assets/radar.svg" width="100%" alt="Tactical Radar" />
-
-</td>
-</tr>
-</table>
-
----
-
-### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) Tactical Operations (Featured Deployments)
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🛡️ Autonomous SOAR & Wazuh Pipeline
-**Enterprise Incident Detection & Containment**
-
-نظام دفاعي متكامل مبني حول **Wazuh Manager** و **Shuffle SOAR** لأتمتة التجاوب مع الإنذارات الأمنية وإثراء البيانات (Enrichment).
-
-- **Telemetry & Rules:** مخصص لرصد هجمات الـ Brute Force وعزل الـ IPs آلياً.
-- **Automation:** تكامل عبر Webhooks و REST APIs مع VirusTotal و TheHive.
-- **Stack:** `Wazuh` `Docker` `Shuffle SOAR` `Python`
-
-```
-[ALERT] Suspicious SSH Auth Spike -> [SOAR] IP Banned in 1.4s
-```
-
-</td>
-<td width="50%" valign="top">
-
-#### 🔍 Endpoint Threat Detection & Syslog Suite
-**Linux Kernel Telemetry & Investigation**
-
-مجموعة سكربتات وقواعد فحص مبنية بلغات **Bash** و **Python** لفلترة سجلات الـ Auditd وحساب مؤشرات الخطر (IoCs).
-
-- **Capabilities:** فحص تشغيل الأوامر المشبوهة، كشف الـ Reverse Shells، واستخراج الـ Artifacts.
-- **Stack:** `Bash` `Python` `Auditd` `Syslog` `Linux CLI`
-
-```
-[IOC_SCAN] 0x4A2F: Unsigned binary spawned by cron -> Flagged
-```
-
-</td>
-</tr>
-</table>
-
----
-
-### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) Security Arsenal & Stack
-
-<div align="center">
-
-#### Systems, Containers & Telemetry
-<img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,docker,bash" alt="OS and Infrastructure" />
-
-<br>
-
-#### Scripting, Security Tools & Automation
-<img src="https://skillicons.dev/icons?i=python,git,github,postman,regex" alt="Development and Security" />
-
-</div>
-
----
-
-### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) SOC Operations & Telemetry (HUD)
-
-<div align="center">
-
-  <!-- لوحة عمليات ومؤشرات الـ SOC التفاعلية المخصصة -->
-  <img src="https://raw.githubusercontent.com/omar123JR/omar123JR/main/assets/telemetry.svg" width="100%" alt="SOC Telemetry HUD" />
-
-</div>
-
----
-
-### ![](https://img.shields.io/badge/%E2%97%88-58A6FF?style=flat-square&labelColor=0D1117) Operational Honors & Trophies
-
-<div align="center">
-
-  <!-- كؤوس وجوائز العمليات الرقمية المخصصة -->
-  <img src="https://raw.githubusercontent.com/omar123JR/omar123JR/main/assets/trophies.svg" width="100%" alt="GitHub Trophies" />
-
-</div>
-
-<h2 align="center">⌘ Commit Activity</h2>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/omar123JR/omar123JR/output/pacman-contribution-graph-dark.svg">
-
-  <source media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/omar123JR/omar123JR/output/pacman-contribution-graph.svg">
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/omar123JR/omar123JR/output/pacman-contribution-graph-dark.svg" alt="Pacman Contribution Graph">
+<p>
+  <img src="https://img.shields.io/badge/FOCUS-Blue_Team-0e7490?style=for-the-badge" alt="Blue Team" />
+  <img src="https://img.shields.io/badge/ROLE-Cybersecurity_Student-172554?style=for-the-badge" alt="Cybersecurity Student" />
+  <img src="https://img.shields.io/badge/LOCATION-Tripoli%2C_Libya-334155?style=for-the-badge" alt="Tripoli, Libya" />
 </p>
-</picture>
 
-<h2 align="center">⌘ Philosophy</h2>
+<h3>Defensive Security · SOC / SIEM · Incident Response · Malware Analysis · OSINT</h3>
+
+<p>
+  I build practical security skills through hands-on labs, SOC simulations, and security-focused software projects.
+</p>
+
+<p>
+  <a href="#featured-projects">Projects</a> ·
+  <a href="#experience">Experience</a> ·
+  <a href="#certifications--training">Certifications</a> ·
+  <a href="#current-learning">Current Learning</a>
+</p>
+
+</div>
+
+---
+
+## About Me
+
+I'm a fourth-year Cybersecurity student focused on defensive security and security operations. I'm particularly interested in SOC workflows, SIEM monitoring, incident response, malware analysis, and open-source intelligence.
+
+I have hands-on practice with **Wazuh** through simulated SOC environments and security projects. I enjoy investigating alerts, understanding logs, documenting findings, and building tools that make security workflows easier.
+
+My current direction is **Blue Team / SOC**, while I continue developing my offensive-security fundamentals to better understand how attacks happen and how to detect them.
+
+## Focus Areas
+
+| Area | Current practice and interests |
+|---|---|
+| **SOC & SIEM** | Wazuh, log monitoring, alert investigation, SOC lab simulations |
+| **Incident Response** | Alert triage, response workflows, SOAR concepts, incident documentation |
+| **Malware Analysis** | Building foundational static and dynamic analysis skills in isolated labs |
+| **OSINT** | Open-source research, information gathering, and source verification |
+| **Web Security** | Learning web vulnerabilities and testing methodology through PortSwigger Web Security Academy |
+
+## Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/omar123JR/SAQR">SAQR — Security Automated Quick Response</a></h3>
+      <strong>Graduation Project · In Development</strong>
+      <p>A Mini-SOC and incident-response platform designed to detect suspicious endpoint activity, correlate security events, automate deterministic containment, preserve investigation evidence, and generate AI-assisted Arabic incident reports.</p>
+      <p><sub>Wazuh · Sysmon · Docker · Incident Response · AI</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/omar123JR/soar1">Smart SOAR System</a></h3>
+      <strong>Security Automation Project</strong>
+      <p>A lab-based SOAR system built around Wazuh alerts and automated response workflows. The project explores alert processing, playbook orchestration, dashboards, and security notifications.</p>
+      <p><sub>Wazuh · Python · FastAPI · Docker · Streamlit</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/omar123JR/Hadir">Hadir — Academic Management Platform</a></h3>
+      <strong>Full-Stack Software Project</strong>
+      <p>An academic management platform for attendance, grades, schedules, and administrative workflows. The project combines full-stack development with security-aware application design.</p>
+      <p><sub>React · TypeScript · Node.js · MySQL</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Wazuh SOC Lab Simulations</h3>
+      <strong>Hands-on Security Practice</strong>
+      <p>Practical lab work focused on collecting and reviewing security events, understanding alerts, testing detection scenarios, and learning how SOC monitoring workflows operate.</p>
+      <p><sub>Wazuh · Windows · Linux · Log Analysis</sub></p>
+    </td>
+  </tr>
+</table>
+
+## Experience
+
+### Practical Work Training — General Authority for Information, Libya
+
+**2 months · Approximately 200 training hours**
+
+Completed a practical, work-based training placement in a professional IT environment. This experience added workplace exposure alongside my academic studies and hands-on technical practice.
+
+## Certifications & Training
+
+- **The OSINT Handbook: Mastering Open Source Intelligence** — Packt / Coursera, October 2026. [Verify certificate](https://coursera.org/verify/Z6T5PJSK1K7A)
+- **Ethical Hacker** — Cisco Networking Academy, verified course badge.
+- **Protect Systems from Penetrations** — Edraak, May 2026.
+- **Cyber Security Attack Techniques** — Edraak, May 2026.
+
+## Current Learning
+
+- **PortSwigger Web Security Academy** — Beginning structured web-security practice.
+- **eJPT v1 preparation** — Studying through Ahmed Sultan's training.
+- **Malware Analysis** — Developing safe lab-based analysis fundamentals.
+- **SOC Engineering** — Improving Wazuh monitoring, alert investigation, and incident-response workflows.
+
+## Tools & Technologies
 
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Developer Quote"/>
+  <img src="https://skillicons.dev/icons?i=python,typescript,react,nodejs,mysql,docker,linux,windows,git,github" alt="Technologies used in projects and labs" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Wazuh-SIEM-3b82f6?style=flat-square" alt="Wazuh" />
+  <img src="https://img.shields.io/badge/Sysmon-Endpoint_Telemetry-0f766e?style=flat-square" alt="Sysmon" />
+  <img src="https://img.shields.io/badge/PortSwigger-Web_Security-7c3aed?style=flat-square" alt="PortSwigger" />
+  <img src="https://img.shields.io/badge/OSINT-Research-334155?style=flat-square" alt="OSINT" />
 </p>
 
 ---
 
 <div align="center">
-  <sub><code>[ TERMINAL SESSION LOCKED // END OF TRANSMISSION ]</code></sub>
+  <sub>Learn continuously. Practice safely. Investigate carefully. Build useful security tools.</sub>
 </div>
