@@ -76,6 +76,12 @@ My current direction is **Blue Team / SOC**, while I continue developing my offe
   </tr>
 </table>
 
+## Academic Security Case Study
+
+### [Smart Healthcare Threat Modeling](projects/smart-healthcare-threat-modeling.md)
+
+Academic security assessment covering system architecture, Level 0/1 DFDs, eight key assets, six STRIDE threat scenarios, qualitative risk assessment, and recommended mitigations. This was a design-level coursework exercise, not a live penetration test.
+
 ## Experience
 
 ### Practical Work Training — General Authority for Information, Libya
